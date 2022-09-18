@@ -14,6 +14,7 @@
 		EDAC3F2428D792090061310D /* Quiz_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3F2228D792090061310D /* Quiz_app.xcdatamodeld */; };
 		EDAC3F2628D7920A0061310D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3F2528D7920A0061310D /* Assets.xcassets */; };
 		EDAC3F2928D7920A0061310D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3F2728D7920A0061310D /* LaunchScreen.storyboard */; };
+		EDAC3F3128D7B67B0061310D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3F3028D7B67B0061310D /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EDAC3F2528D7920A0061310D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDAC3F2828D7920A0061310D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDAC3F2A28D7920A0061310D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC3F3028D7B67B0061310D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		EDAC3F1828D792090061310D /* Quiz app */ = {
 			isa = PBXGroup;
 			children = (
+				EDAC3F3028D7B67B0061310D /* Question.swift */,
 				EDAC3F1928D792090061310D /* AppDelegate.swift */,
 				EDAC3F1B28D792090061310D /* SceneDelegate.swift */,
 				EDAC3F1D28D792090061310D /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAC3F3128D7B67B0061310D /* Question.swift in Sources */,
 				EDAC3F1E28D792090061310D /* ViewController.swift in Sources */,
 				EDAC3F1A28D792090061310D /* AppDelegate.swift in Sources */,
 				EDAC3F2428D792090061310D /* Quiz_app.xcdatamodeld in Sources */,
